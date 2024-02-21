@@ -1,0 +1,35 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  header .welcome-message {
+    font-size: 1rem; /* Ajuste o tamanho da fonte conforme necessário */
+    color: rgb(24, 218, 24); /* Cor do texto da mensagem de boas-vindas */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li button {
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: medium;
+  }
